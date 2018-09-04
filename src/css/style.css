@@ -466,10 +466,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         transition: 0.2s all;
     }
     .main-nav>li.active {
-        border-left: 6px solid red;
+        border-left: 6px solid #0069FF;
     }
     .main-nav li a:hover, .main-nav li a:focus {
-        background-color: red;
+        background-color:  #0069FF;
         color: #FFF;
         opacity: 1;
     }
@@ -1757,5 +1757,5 @@ header {
 .container-fluid>.navbar-collapse,
 .container-fluid>.navbar-header,
 .container>.navbar-collapse,
-.container>.navbar-header { background: red;}
+.container>.navbar-header { background:#0069FF;}
 }
